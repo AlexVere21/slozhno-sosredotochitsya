@@ -11,15 +11,16 @@
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
-    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
   </head>
 
   <body class="page theme_dark">
     <header class="header decorated-zone">
+      <div class="header__decoration" aria-hidden="true"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -48,10 +49,11 @@
       </nav>
 
       <h1 class="header__title">no focus</h1>
-      <p class="header__text title-decoration">
-        Что делать, когда не можешь делать ничего<br />
-        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-      </p>
+      <div class="header__text title-decoration">
+        <p>Что делать, когда не можешь делать ничего</p>
+        <p>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+      </div>
+      
 
     </header>
 
@@ -61,7 +63,7 @@
       <section class="content__article difficult">
         <h2 class="accent-title">Почему сосредоточиться так сложно</h2>
         <ul class="content__description">
-          <li>
+          <article>
             <h3 class="title-decoration">Многозадачность</h3>
             <p class="content__text">
               Особенно сложно сосредоточиться, когда задач много и&nbsp;все
@@ -81,8 +83,8 @@
               этого мы&nbsp;работаем невнимательно: ошибаемся и&nbsp;быстро
               устаём.
             </p>
-          </li>
-          <li>
+          </article>
+          <article>
             <h3 class="title-decoration">Дофамин</h3>
             <p class="content__text">
               С&nbsp;гормонами стресса всё понятно, но&nbsp;дальше&nbsp;&mdash;
@@ -96,7 +98,7 @@
               и&nbsp;мы&nbsp;чувствуем удовольствие. Получается замкнутый круг:
               чем больше отвлекаешься, тем больше удовольствия получаешь.
             </p>
-          </li>
+          </article>
         </ul>
       </section>
 

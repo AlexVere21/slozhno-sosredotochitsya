@@ -95,6 +95,7 @@
   border: none;
   color: var(--accent-text-color, #ff0070);
   text-transform: lowercase;
+  font-family: 'IBM Plex Mono';
 }
 
 .header__theme-menu-button_active {

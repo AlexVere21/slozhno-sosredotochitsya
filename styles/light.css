@@ -18,8 +18,8 @@
   --hover-border-color: #35343040;
 }
 
-.theme_light .header__decor::after,
-.theme_light .header__decor::before {
+.theme_light .header__decoration::after,
+.theme_light .header__decoration::before {
   visibility: hidden;
 }
 
@@ -37,8 +37,8 @@
     --hover-border-color: #35343040;
   }
 
-  .header__decor::after,
-  .header__decor::before {
+  .header__decoration::after,
+  .header__decoration::before {
     visibility: hidden;
   }
 }
